@@ -26,7 +26,7 @@ Next, we import our CSV file for the data we want to plot:
 from google.colab import files
 uploaded = files.upload()
 ```
-I manipulated the data from the original dataset. Since I wanted to track covid cases over time for selected European countries, I made another CSV file where I filtered the data for only European countries and changed the date column to days to track Covid-19. The time period if from Jan 22,2020 to May 28,2021. A snapshot of my data file is given below:
+I manipulated the data from the original dataset. Since I wanted to track the number of COVID cases over time for selected European countries, I made another CSV file where I filtered the data for only European countries and changed the date column to number of days to track Covid-19. The time period is from Jan 22,2020 to May 28,2021. A snapshot of my data file is given below:
 
 ![Filtered-data](Images/filtered-data.png)
 
