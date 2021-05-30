@@ -26,7 +26,7 @@ Next, we import our CSV file for the data we want to plot:
 from google.colab import files
 uploaded = files.upload()
 ```
-I manipulated the data from the original dataset. Since I wanted to track covid cases over time for selected European countries, I made another CSV file where I filtered the data for only European countries and changed the date column to days to track Covid-19. A snapshot of my data file is given below:
+I manipulated the data from the original dataset. Since I wanted to track covid cases over time for selected European countries, I made another CSV file where I filtered the data for only European countries and changed the date column to days to track Covid-19. The time period if from Jan 22, 2020 to May 28, 2021. A snapshot of my data file is given below:
 
 ![Filtered-data](Images/filtered-data.png)
 
@@ -71,3 +71,10 @@ The following code displays the graph:
 plt.show()
 ```
 The output of the graph is displayed below:
+
+![Graph](Images/graph.png)
+
+
+## Part 2: Using Kepler to make an animated map of COVID infections over time ##
+The data obtained for Covid cases comes from [another GitHub repo about a tutorial on Kepler](https://github.com/leighhalliday/keplergl-demo). The data can be viewed from the 'Part 2 Data' folder in my repo.
+
