@@ -106,5 +106,11 @@ Finally your map looks something like this:
 
 You can see that the Covid hotspots in early 2020 were China, Italy as well as Spain and Germany given the large radius of the circle. Next you need to add a filter in order to make your animated map.
 
+The screenshot below helps guide you through this animation process. In the filter tab, click on 'Add filter' and select the 'Datetime' field (the date field that includes the time component):
+
+![kep5](Images/kepler5.png)
+
+
+
 
 
