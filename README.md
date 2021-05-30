@@ -76,23 +76,23 @@ The output of the graph is displayed below:
 
 
 ## Part 2: Using Kepler to make an animated map of COVID infections over time ##
-The data obtained for Covid cases comes from [another GitHub repo about a tutorial on Kepler](https://github.com/leighhalliday/keplergl-demo). The data can be viewed from the 'Part 2 Data' folder in my repo.
+The data obtained for Covid cases comes from [another GitHub repo about a tutorial on Kepler](https://github.com/leighhalliday/keplergl-demo/blob/master/covid19.csv). The data is a CSV file and can be viewed from the 'Part 2 Data' folder in my repo.
 
 The data consists of COVID cases in different countries over a three month period from Jan 22,2020 to March 24,2020. In order to make an animated map on Kepler, the Date column in this file had to be changed to date-time column. Kepler can get finicky about the date format. In order to to show an animated map, your date format needs to have a time component. Therefore I changed the format of the date column. Prior to changing, the original data looked like this:
 
 ![date](Images/date-col.png)
 
-After enabling the time component in this column, my data looked like this:
+After enabling the time component using the 'format cells' option in Excel for this column, my data looked like this:
 
 ![datetime](Images/datetime-col.png)
 
-The data is now all set to go on Kepler! This is an online website and you don't need to install anything. Simply go to [Kepler.gl](Kepler.gl) and click on 'Get Started'. You will be asked to import your data file and you can drag and drop the CSV file which includes your time component in the date column in order to show the animation.
+The data is now all set to go on Kepler! This is a web-based application for data visualization and you don't need to install anything. Simply go to [Kepler](https://kepler.gl/) and click on 'Get Started'. You will be asked to import your data file and you can drag and drop the CSV file which includes your time component in the date column in order to show the animation.
 
-Once you import the CSV file, your screen will look something like the picture below. It does not show the covid map yet!
+Once you import the CSV file, your screen will look something like the picture below. It does not show the COVID map yet!
 
 ![kep1](Images/kepler1.png)
 
-Next, you need to add a layer. You can give it any name. I gave the name 'Confirmed'. You need to select the type of your map under the 'Basic' column. I wanted to show points on the map so I chose points. Next you need to specify your latitude and longitude columns. A screenshot if given below of where you need to make these changes:
+Next, you need to add a layer. You can give it any name. I gave the name 'Confirmed' representing confirmed cases of COVID-19. You need to select the type of your map under the 'Basic' column. I wanted to show points on the map so I chose points. Next you need to specify your latitude and longitude columns. A screenshot is given below of where you need to make these changes:
 
 ![kep2](Images/kepler2.png)
 
@@ -114,7 +114,7 @@ Next, a small window will appear on your map that looks like this:
 
 ![kep6](Images/kepler6.png)
 
-This visualization tool allows us to filter the data down to a couple of days in order to see the progress of in the infection over time. I set the filter as in the picture below:
+This visualization tool allows us to filter the data down to a couple of days in order to see the progress of the infection over time. I set the filter as in the picture below:
 
 ![kep7](Images/kepler7.png)
 
