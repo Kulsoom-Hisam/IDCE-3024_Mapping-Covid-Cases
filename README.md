@@ -13,3 +13,5 @@ import pandas as pd
 from matplotlib import pyplot as plt
 ```
 In order to choose different styles of plotting, we can check this [Style Sheets reference](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html).
+![Here is a snippet of this webpage](images/stylesheet.png):
+
