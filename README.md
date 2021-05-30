@@ -12,6 +12,16 @@ First, we start off with installing the required libraries:
 import pandas as pd
 from matplotlib import pyplot as plt
 ```
-In order to choose different styles of plotting, we can check this [Style Sheets reference](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html).
-![Here is a snippet of this webpage](images/stylesheet.png):
+In order to choose different styles of plotting, we can check this [Style Sheets reference](https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html). Below is a snippet of this webpage:
+![Stylesheet](Images/stylesheet.png):
+I liked the dark background so I specified in the code that I wanted the dark background. You can do this for any background you like:
+```
+plt.style.use('dark_background')
+```
+Next, we import our CSV file for the data we want to plot:
+```
+#import data
+from google.colab import files
+uploaded = files.upload()
+```
 
