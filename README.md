@@ -100,3 +100,11 @@ You can also change the color of the points. I chose the color red to represent 
 
 ![kep3](Images/kepler3.png)
 
+Finally your map looks something like this:
+
+![kep4](Images/kepler4.png)
+
+You can see that the Covid hotspots in early 2020 were China, Italy as well as Spain and Germany given the large radius of the circle. Next you need to add a filter in order to make your animated map.
+
+
+
