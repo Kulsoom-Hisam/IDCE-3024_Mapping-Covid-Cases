@@ -114,6 +114,13 @@ Next, a small window will appear on your map that looks like this:
 
 ![kep6](Images/kepler6.png)
 
+This visualization tool allows us to filter the data down to a couple of days in order to see the progress of in the infection over time. I set the filter as in the picture below:
+
+![kep7](Images/kepler7.png)
+
+After you set the filter, simply click play and you can see how the infections spread first in China and then in the West. 
+
+You can check out my animated map [here](https://kepler.gl/demo/map/carto?mapId=fd8b998f-1c26-db9e-1fea-81d1209a2110&owner=kulsoom-hisam&privateMap=false).
 
 
 
