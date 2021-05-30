@@ -88,3 +88,15 @@ After enabling the time component in this column, my data looked like this:
 
 The data is now all set to go on Kepler! This is an online website and you don't need to install anything. Simply go to [Kepler.gl](Kepler.gl) and click on 'Get Started'. You will be asked to import your data file and you can drag and drop the CSV file which includes your time component in the date column in order to show the animation.
 
+Once you import the CSV file, your screen will look something like the picture below. It does not show the covid map yet!
+
+![kep1](Images/kepler1.png)
+
+Next, you need to add a layer. You can give it any name. I gave the name 'Confirmed'. You need to select the type of your map under the 'Basic' column. I wanted to show points on the map so I chose points. Next you need to specify your latitude and longitude columns. A screenshot if given below of where you need to make these changes:
+
+![kep2](Images/kepler2.png)
+
+You can also change the color of the points. I chose the color red to represent COVID infections. You can adjust the radius of the circle based on how many covid infections there are in a particular place. You can do this by selecting 'value' in the 'Radius based on' column, where the 'value' field in our data represents number of cases in a particular place. A screenshot is given below for reference:
+
+![kep3](Images/kepler3.png)
+
