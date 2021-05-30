@@ -110,6 +110,10 @@ The screenshot below helps guide you through this animation process. In the filt
 
 ![kep5](Images/kepler5.png)
 
+Next, a small window will appear on your map that looks like this:
+
+![kep6](Images/kepler6.png)
+
 
 
 
