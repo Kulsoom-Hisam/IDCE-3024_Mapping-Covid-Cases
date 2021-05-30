@@ -78,4 +78,13 @@ The output of the graph is displayed below:
 ## Part 2: Using Kepler to make an animated map of COVID infections over time ##
 The data obtained for Covid cases comes from [another GitHub repo about a tutorial on Kepler](https://github.com/leighhalliday/keplergl-demo). The data can be viewed from the 'Part 2 Data' folder in my repo.
 
-The data consists of COVID cases in different countries over a three month period from Jan 22,2020 to March 24,2020. In order to make an animated map on Kepler, the Date column in this file had to be changed to date-time column
+The data consists of COVID cases in different countries over a three month period from Jan 22,2020 to March 24,2020. In order to make an animated map on Kepler, the Date column in this file had to be changed to date-time column. Kepler can get finicky about the date format. In order to to show an animated map, your date format needs to have a time component. Therefore I changed the format of the date column. Prior to changing, the original data looked like this:
+
+![date](Images/date-col.png)
+
+After enabling the time component in this column, my data looked like this:
+
+![datetime](Images/datetime-col.png)
+
+The data is now all set to go on Kepler! This is an online website and you don't need to install anything. Simply go to [Kepler.gl](Kepler.gl) and click on 'Get Started'. You will be asked to import your data file and you can drag and drop the CSV file which includes your time component in the date column in order to show the animation.
+
