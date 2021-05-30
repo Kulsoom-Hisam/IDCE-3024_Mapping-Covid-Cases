@@ -122,6 +122,8 @@ After you set the filter, simply click play and you can see how the infections s
 
 You can check out my animated map [here](https://kepler.gl/demo/map/carto?mapId=fd8b998f-1c26-db9e-1fea-81d1209a2110&owner=kulsoom-hisam&privateMap=false).
 
+You can check out a GIF of my animated map below:
 
+![gif](Images/animation.gif)
 
 
