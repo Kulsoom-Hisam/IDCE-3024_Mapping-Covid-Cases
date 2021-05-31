@@ -74,6 +74,7 @@ The output of the graph is displayed below:
 
 ![Graph](Images/graph.png)
 
+This part of the project is inspired from this [Youtube tutorial video](https://www.youtube.com/watch?v=doDD7OHlZ2c&list=WL&index=3).
 
 ## Part 2: Using Kepler to make an animated map of COVID infections over time ##
 The data obtained for Covid cases comes from [another GitHub repo about a tutorial on Kepler](https://github.com/leighhalliday/keplergl-demo/blob/master/covid19.csv). The data is a CSV file and can be viewed from the 'Part 2 Data' folder in my repo.
