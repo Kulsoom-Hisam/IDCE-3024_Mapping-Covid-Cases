@@ -4,7 +4,7 @@ This tutorial guides users on how to plot COVID infections over time using the l
 The first part walks users through plotting COVID cases using Matplotlib in [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb#recent=true) whereas the second one talks about making an animated map on Kepler.
 
 ## Part 1: Using Colab to Plot Covid Cases over time ##
-The data obtained for Covid cases is obtained from [The Humanitarian Data Exchange](https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases). The CSV data file is contained in the 'Part 1 Data' folder in this repo. 
+The data obtained for Covid cases is obtained from [The Humanitarian Data Exchange](https://data.humdata.org/dataset/novel-coronavirus-2019-ncov-cases). The CSV data file is contained in the 'Part 1 Data' folder in this repo. I have also uploaded my Colab file with all the codes and the plot.
 
 First, we start off with installing the required libraries:
 ```
